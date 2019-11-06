@@ -29,7 +29,7 @@ def main(filename):
             name=getNameOrAddress(1)
             sex=getSex()
             age=getAge()
-            tel=getTelNO()
+            tel=getTelNo()
             address=getNameOrAddress(0)
             email=getEmail()
             line=','.join([name,sex,age,tel,address,email]) +'\n'
